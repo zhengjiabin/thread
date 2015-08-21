@@ -9,7 +9,7 @@ import java.util.concurrent.ExecutionException;
  * @author Administrator
  * 
  */
-public class Thread4 {
+public class ThreadCountDownLatch {
     public static void main(String[] args) throws InterruptedException, ExecutionException {
         System.out.println("main thread start working.");
         
