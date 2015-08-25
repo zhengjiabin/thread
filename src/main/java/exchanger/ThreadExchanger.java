@@ -33,7 +33,8 @@ public class ThreadExchanger {
                     
                     Integer changeData = null;
                     try {
-                        Thread.sleep(1000);
+                        Thread.sleep((long)Math.random() * 10000);
+                        System.out.println(Thread.currentThread().getName() + "£¬¿ªÊ¼µÈ´ý");
                         changeData = exchanger.exchange(data);
                     } catch (InterruptedException e) {
                         e.printStackTrace();
